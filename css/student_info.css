@@ -1,0 +1,170 @@
+#logo {
+  height: 100px;
+  width: 120px;
+}
+/* body {
+  height: 100vh;
+  background-image: url('back.jpg');
+  background-repeat : no-repeat;
+  background-size : cover;
+  } */
+/* footer 하단 고정 [S] */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#body-wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+#body-content {
+  margin-top: 100px;
+  padding-bottom: 100px; /* footer의 높이 */
+}
+
+footer {
+  background-color: ghostwhite;
+  width: 100%;
+  height: 120px; /* footer의 높이 */
+  margin-top: 50px;
+  bottom: 0;
+  left: 0;
+}
+/* footer 하단 고정 [E] */
+
+p {
+  text-align: center;
+}
+
+#content {
+  background-color: white;
+}
+
+/*메뉴 css*/
+#nav {
+  list-style: none;
+  height: 55px;
+  padding: 5px 5px;
+  margin: 0;
+  background-color: white;
+}
+#nav li {
+  display: inline-block;
+  position: relative;
+  margin: 8px 70px;
+  padding: 0;
+}
+#nav li a {
+  display: inline-block;
+  font-family: "맑은고딕";
+
+  font-size: 18px;
+  padding: 7px 8px;
+  margin: 0;
+  color: black;
+  margin: 0;
+  text-decoration: none;
+  text-shadow: 0 1px 1px;
+}
+#nav li:hover > a {
+  background: white;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px;
+}
+#nav ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 45px;
+  width: 60px;
+  background: white;
+  text-align: center;
+  opacity: 0;
+}
+#nav ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+#nav ul a {
+  font-weight: normal;
+  color: black;
+}
+#nav ul li:hover a {
+  background: white;
+  font-weight: bold;
+}
+#nav li:hover ul {
+  opacity: 1;
+}
+#nav li:hover ul li {
+  height: 35px;
+  overflow: visible;
+  padding: 0;
+}
+#back {
+  width: 100px;
+  height: 100px;
+}
+#sidemenu {
+  background-color: white;
+  height: 700px;
+  position: absolute;
+  width: 150px;
+  text-align: center;
+}
+#test {
+  width: 100%;
+  height: 700px;
+}
+#test2 {
+  width: 100%;
+  height: 300px;
+}
+#class_info {
+  height: 100px;
+  width: 100px;
+}
+#logo2 {
+  height: 100px;
+  width: 150px;
+}
+
+#session2 {
+  display: inline;
+  float: right;
+}
+
+#session2 a {
+  text-decoration: none;
+}
+
+#menu {
+  background-color: aliceblue;
+}
+table {
+  width: 40%;
+  border: 1px solid #444444;
+  border-collapse: collapse;
+}
+th,
+td {
+  text-align: center;
+  border: 1px solid #444444;
+  padding: 10px;
+  font-size: 12px;
+}
+th:first-child,
+td:first-child {
+  border-left: none;
+}
